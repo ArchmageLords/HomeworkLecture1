@@ -33,7 +33,7 @@ fun secondVariant() {
 
 fun thirdVariant(){
     var indexingVariable = 0
-    while (indexingVariable < 100){
+    while (indexingVariable <= 100){
         if (indexingVariable != 0) {
             if (indexingVariable % 3 == 0 && indexingVariable % 5 == 0) {
                 println("Piff and Paff, $indexingVariable")
